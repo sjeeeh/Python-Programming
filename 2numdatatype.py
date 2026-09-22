@@ -1,6 +1,6 @@
-a=5
-b=4.98
-c=2+3j
-print("Number: ",a,"\nType: ",type(a))
-print("Number: ",b,"\nType: ",type(b))
-print("Number: ",c,"\nType: ",type(c))
+a=int(input("Enter an Integer: "))
+b=float(input("Enter an Float: "))
+c=complex(input("Enter an Complex: "))
+print(a,"  Type: ",type(a))
+print(b,"  Type: ",type(b))
+print(c,"  Type: ",type(c))
